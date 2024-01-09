@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="content-layout">
+
+    <section class="section">
+        <nav class="navbar">
+            <img src="images/logo.svg" alt="Logo Shortly">
+            <div class="burger-button">
+
+            </div>
+            <ul>
+                <li class="nav-item"><a href="#">Features</a></li>
+                <li class="nav-item"><a href="#">Pricing</a></li>
+                <li class="nav-item"><a href="#">Resources</a></li>
+                <li class="nav-separator"></li>
+                <li class="nav-item"><a href="#">login</a></li>
+                <li class="nav-item"><a class="button" data-color="accent" data-shape="rounded" href="#">Sign Up</a></li>
+            </ul>
+
+        </nav>
+    </section>
+
+    <header class="section">
+        <div class="hero">
+            <div class="hero-text | text-center">
+
+                <h1 class="heading-1">More than just shorter links</h1>
+
+                <p>Build your brand’s recognition and get detailed insights
+                    on how your links are performing.</p>
+
+                <button class="hero-cta | button" data-style="cta" data-shape="rounded">Get Started</button>
+
+            </div>
+            <div class="hero-illustration">
+                <img src="images/illustration-working.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="section | neutral-light-container" data-bg-style="half-bottom">
+        <form class="shorten-link-form | primary-container">
+            <label for="link" class="visually-hidden">Shorten a link here...</label>
+            <input type="text" class="text-input" name="link" id="link" placeholder="Shorten a link here...">
+            <button type="submit" class="button" data-color="accent">Shorten It!</button>
+        </form>
+    </section>
+
+    <section class="section | neutral-light-container text-center">
+        <h2 class="heading-2">Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our
+            advanced statistics dashboard.</p>
+    </section>
+
+    <section class="section | neutral-light-container">
+        <div class="cards-container">
+            <article class="card">
+                <div class="card__circle-icon">
+                    <img src="images/icon-brand-recognition.svg" alt="">
+                </div>
+                <h2 class="card__heading | heading-2">Brand Recognition</h2>
+                <p class="card__body">
+                    Boost your brand recognition with each click. Generic links don’t
+                    mean a thing. Branded links help instil confidence in your content.
+                </p>
+            </article>
+            <article class="card">
+                <div class="card__circle-icon">
+                    <img src="images/icon-detailed-records.svg" alt="">
+                </div>
+                <h2 class="card__heading | heading-2">Detailed Records</h2>
+                <p class="card__body">
+                    Gain insights into who is clicking your links. Knowing when and where
+                    people engage with your content helps inform better decisions.
+                </p>
+            </article>
+            <article class="card">
+                <div class="card__circle-icon">
+                    <img src="images/icon-fully-customizable.svg" alt="">
+                </div>
+                <h2 class="card__heading | heading-2">Fully Customizable</h2>
+                <p class="card__body">
+                    Improve brand awareness and content discoverability through customizable
+                    links, supercharging audience engagement.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="last-cta section | primary-container text-center">
+        <p class="heading-2 clr-neutral-1000">Boost your links today</p>
+        <button class="button" data-style="cta" data-shape="rounded">Get Started</button>
+    </section>
+
+    <footer class="footer section | neutral-dark-container text-center">
+        <img src="images/logo-white.svg" alt="Logo Shortly">
+        <div>
+            <h2>Features</h2>
+            <ul>
+                <li><a href="#">Link Shortening</a></li>
+                <li><a href="#">Branded Links</a></li>
+                <li><a href="#">Analytics</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Company</h2>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="socials">
+            <ul>
+                <li><img src="images/icon-facebook.svg" alt="Facebook link"></li>
+                <li><img src="images/icon-twitter.svg" alt="Twitter link"></li>
+                <li><img src="images/icon-pinterest.svg" alt="Pinterest link"></li>
+                <li><img src="images/icon-instagram.svg" alt="Instagram Link"></li>
+            </ul>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Lucas Préaux</a>.
+        </div>
+    </footer>
+</body>
+</html>
